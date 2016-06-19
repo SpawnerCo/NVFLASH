@@ -1,0 +1,14 @@
+﻿Build started 12/26/2015 18:47:10.
+     1>Project "c:\Users\Admin\documents\visual studio 2013\Projects\NVFLASH\NVFLASH\NVFLASH.vcxproj" on node 2 (Build target(s)).
+     1>StampInf:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\stampinf.exe -d "*" -a "x86" -v "*" -k "1.11" -u "1.11.0" -f Win7Debug\NVFLASH.inf 
+         Stamping Win7Debug\NVFLASH.inf [Version] section with DriverVer=12/26/2015,18.47.10.768
+       RunWpp:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\tracewpp.exe -cfgdir:"C:\Program Files (x86)\Windows Kits\8.1\bin\wppconfig\rev1" -scan:"trace.h" -odir:"Win7Debug\\" -km Main.c 
+         cl wpp
+     1>wpp : error : (WppCreateFile)Cannot open file trace.h, error 2
+     1>Done Building Project "c:\Users\Admin\documents\visual studio 2013\Projects\NVFLASH\NVFLASH\NVFLASH.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.97

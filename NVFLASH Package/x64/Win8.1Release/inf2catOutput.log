@@ -1,0 +1,16 @@
+Inf2Cat Tool Output:
+..........................
+Signability test complete.
+
+Errors:
+None
+
+Warnings:
+None
+
+Catalog generation complete.
+C:\Users\Admin\Documents\Visual Studio 2013\Projects\NVFLASH\x64\Win8.1Release\NVFLASH Package\nvflash.cat
+FileTracker : error FTK1013: could not find unicode byte order marker in the file tracking log file: C:\Users\Admin\Documents\Visual Studio 2013\Projects\NVFLASH\NVFLASH Package\x64\Win8.1Release\inf2cat.read.1.tlog. The tracking data is invalid.
+
+FileTracker : error FTK1013: could not find unicode byte order marker in the file tracking log file: C:\Users\Admin\Documents\Visual Studio 2013\Projects\NVFLASH\NVFLASH Package\x64\Win8.1Release\inf2cat.write.1.tlog. The tracking data is invalid.
+

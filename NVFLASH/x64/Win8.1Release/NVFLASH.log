@@ -1,0 +1,39 @@
+﻿Build started 6/19/2016 14:41:50.
+     1>Project "C:\Users\Admin\Documents\Visual Studio 2013\Projects\NVFLASH\NVFLASH\NVFLASH.vcxproj" on node 2 (Build target(s)).
+     1>StampInf:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\stampinf.exe -d "*" -a "amd64" -v "*" -k "1.11" -u "1.11.0" -f x64\Win8.1Release\NVFLASH.inf 
+         Stamping x64\Win8.1Release\NVFLASH.inf [Version] section with DriverVer=06/19/2016,14.41.51.243
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Ix64\Win8.1Release\ /Zi /nologo /W4 /WX- /Ox /Os /Oy- /D _WIN64 /D _AMD64_ /D AMD64 /D _WIN32_WINNT=0x0603 /D WINVER=0x0603 /D WINNT=1 /D NTDDI_VERSION=0x06030000 /D KMDF_VERSION_MAJOR=1 /D KMDF_VERSION_MINOR=11 /GF /Gm- /Zp8 /GS /Gy /fp:precise /Zc:wchar_t- /Zc:forScope- /GR- /Fo"x64\Win8.1Release\\" /Fd"x64\Win8.1Release\vc120.pdb" /Gz /wd4603 /wd4627 /wd4986 /wd4987 /wd4996 /FI"C:\Program Files (x86)\Windows Kits\8.1\Include\Shared\warning.h" /errorReport:prompt /kernel -cbstring -d2epilogunwind  /d1nodatetime /d1import_no_registry /d2AllowCompatibleILVersions /d2Zi+ Main.c
+         Main.c
+     1>Main.c(23): warning C4101: 'config' : unreferenced local variable
+     1>Main.c(61): warning C4100: 'RegistryPath' : unreferenced formal parameter
+     1>Main.c(96): warning C4100: 'Irp' : unreferenced formal parameter
+     1>Main.c(96): warning C4100: 'pDeviceObject' : unreferenced formal parameter
+     1>Main.c(102): warning C4100: 'Irp' : unreferenced formal parameter
+     1>Main.c(102): warning C4100: 'pDeviceObject' : unreferenced formal parameter
+     1>Main.c(167): warning C4242: 'function' : conversion from 'ULONGLONG' to 'USHORT', possible loss of data
+     1>Main.c(175): warning C4242: 'function' : conversion from 'ULONGLONG' to 'USHORT', possible loss of data
+     1>Main.c(175): warning C4242: 'function' : conversion from 'ULONGLONG' to 'ULONG', possible loss of data
+     1>Main.c(255): warning C4242: 'function' : conversion from 'ULONGLONG' to 'ULONG', possible loss of data
+     1>Main.c(258): warning C4133: 'function' : incompatible types - from '__int64 *' to 'PULONG'
+     1>Main.c(259): warning C4133: 'function' : incompatible types - from '__int64 *' to 'PULONG'
+     1>Main.c(262): warning C4133: 'function' : incompatible types - from '__int64 *' to 'PULONG'
+     1>Main.c(263): warning C4133: 'function' : incompatible types - from '__int64 *' to 'PULONG'
+     1>Main.c(267): warning C4133: 'function' : incompatible types - from '__int64 *' to 'PULONG'
+     1>Main.c(268): warning C4133: 'function' : incompatible types - from '__int64 *' to 'PULONG'
+     1>Main.c(312): warning C4022: 'sub_11010' : pointer mismatch for actual parameter 2
+     1>Main.c(312): warning C4022: 'sub_11010' : pointer mismatch for actual parameter 5
+     1>Main.c(332): warning C4100: 'DeviceObject' : unreferenced formal parameter
+     1>Main.c(389): warning C4047: '=' : '__int64' differs in levels of indirection from 'PDEVICE_OBJECT'
+     1>Main.c(414): warning C4047: '=' : '__int64' differs in levels of indirection from 'POBJECT_HANDLE_INFORMATION'
+     1>c:\users\admin\documents\visual studio 2013\projects\nvflash\nvflash\main.c(330): warning C4715: 'MapAdapter' : not all control paths return a value
+     1>c:\users\admin\documents\visual studio 2013\projects\nvflash\nvflash\main.c(132): warning C4701: potentially uninitialized local variable 'result' used
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Admin\Documents\Visual Studio 2013\Projects\NVFLASH\x64\Win8.1Release\NVFLASH.sys" /VERSION:"6.3" /INCREMENTAL:NO /NOLOGO /WX:NO /SECTION:"INIT,d" "C:\Program Files (x86)\Windows Kits\8.1\lib\winV6.3\KM\x64\BufferOverflowFastFailK.lib" "C:\Program Files (x86)\Windows Kits\8.1\lib\winV6.3\KM\x64\ntoskrnl.lib" "C:\Program Files (x86)\Windows Kits\8.1\lib\winV6.3\KM\x64\hal.lib" "C:\Program Files (x86)\Windows Kits\8.1\lib\winV6.3\KM\x64\wmilib.lib" "C:\Program Files (x86)\Windows Kits\8.1\lib\wdf\kmdf\x64\1.11\WdfLdr.lib" "C:\Program Files (x86)\Windows Kits\8.1\lib\wdf\kmdf\x64\1.11\WdfDriverEntry.lib" /NODEFAULTLIB /MANIFEST:NO /DEBUG /PDB:"C:\Users\Admin\Documents\Visual Studio 2013\Projects\NVFLASH\x64\Win8.1Release\NVFLASH.pdb" /SUBSYSTEM:NATIVE,"6.03" /Driver /OPT:REF /OPT:ICF /ENTRY:"FxDriverEntry" /RELEASE /IMPLIB:"C:\Users\Admin\Documents\Visual Studio 2013\Projects\NVFLASH\x64\Win8.1Release\NVFLASH.lib" /MERGE:"_TEXT=.text;_PAGE=PAGE" /MACHINE:X64 /PROFILE /integritycheck /kernel /IGNORE:4198,4010,4037,4039,4065,4070,4078,4087,4089,4221,4108,4088,4218,4218,4235 /osversion:6.3 /pdbcompress /debugtype:pdata x64\Win8.1Release\Main.obj
+         NVFLASH.vcxproj -> C:\Users\Admin\Documents\Visual Studio 2013\Projects\NVFLASH\x64\Win8.1Release\NVFLASH.sys
+     1>Done Building Project "C:\Users\Admin\Documents\Visual Studio 2013\Projects\NVFLASH\NVFLASH\NVFLASH.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.13
